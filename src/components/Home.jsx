@@ -1,10 +1,9 @@
-import React from "react";
 
 export default function Home(){
     return (
         <div className="container">
             <div className="img__container">
-                <img src="images/photo-grid.png"/>
+                <img src="../assets/images/photo-grid.png"/>
             </div>
             
             <h1>Online Experiences</h1>
