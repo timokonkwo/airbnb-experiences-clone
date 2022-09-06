@@ -1,9 +1,9 @@
-
+import photo from "../assets/images/photo-grid.png"
 export default function Home(){
     return (
         <div className="container">
             <div className="img__container">
-                <img src="../assets/images/photo-grid.png"/>
+                <img src={photo}/>
             </div>
             
             <h1>Online Experiences</h1>
