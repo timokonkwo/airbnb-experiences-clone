@@ -1,5 +1,6 @@
 import Navbar from "./Navbar"
 import Home from "./Home"
+import Card from "./Card"
 
 /*
 Challenge: Build the Navbar component.
@@ -11,6 +12,7 @@ export default function App() {
         <div>
             <Navbar/>
             <Home />
+            <Card />
         </div>
     )
 }

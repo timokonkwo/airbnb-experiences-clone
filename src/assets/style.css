@@ -34,4 +34,34 @@ nav {
 .description {
     color: #222222;
     width: 330px;
+    margin-bottom: 4rem;
+}
+
+.card__img-container {
+    position: relative;
+}
+
+.status {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    background-color: #fff;
+    font-weight: 500;
+    padding: .3rem .4rem;
+    border-radius: .3rem;
+}
+
+.star__holder {
+    display: flex;
+    align-items: center;
+    column-gap: .3rem;
+    /* align-content: center; */
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.grey {
+    color: #918E9B;
 }
