@@ -35,10 +35,10 @@ export default function App() {
                 />
                 <Card 
                      status=""
-                     title="Life Lessons with Katie"
-                     img={katie}
-                     count={6}
-                     price={136}
+                     title="Group mountain biking"
+                     img={bike}
+                     count={2}
+                     price={50}
                 />
             </div>
         </div>
