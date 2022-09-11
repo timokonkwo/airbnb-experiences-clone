@@ -6,7 +6,7 @@ export default function Card(props) {
 			<div className="card__img-container">
 				<img src={props.img} alt="" className="card-img" />
 
-				<div className="status">{props.status}</div>
+				{props.status && <div className="status">{props.status}</div>}
 			</div>
 			<div className="card__content">
 				<div className="star__holder">
