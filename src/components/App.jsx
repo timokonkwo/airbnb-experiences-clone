@@ -13,6 +13,7 @@ Check the Figma file for the design specifics.
 */
 
 export default function App() {
+    const img = "https://via.placeholder.com/300";
     return (
         <div>
             <Navbar/>
@@ -22,21 +23,21 @@ export default function App() {
                 <Card 
                     status="SOLD OUT"
                     title="Life Lessons with Katie"
-                    img={katie}
+                    img={img}
                     count={6}
                     price={136}
                 />
                 <Card 
                      status="ONLINE"
                      title="Learn wedding photography"
-                     img={wedding}
+                     img={img}
                      count={30}
                      price={125}
                 />
                 <Card 
                      status=""
                      title="Group mountain biking"
-                     img={bike}
+                     img={img}
                      count={2}
                      price={50}
                 />
