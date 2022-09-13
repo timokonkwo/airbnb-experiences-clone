@@ -1,8 +1,10 @@
+const img = "https://via.placeholder.com/300";
+
 export default [
     {
         status: "SOLD OUT",
         title:"Life Lessons with Katie",
-        img: "katie.png",
+        img, //"katie.png",
         count: 6,
         price: 136
     },
@@ -10,7 +12,7 @@ export default [
     {
         status: "ONLINE",
         title: "Learn wedding photography",
-        img: "wedding.png",
+        img, // "wedding.png",
         count: 30,
         price: 125
     },
@@ -18,7 +20,7 @@ export default [
     {
         status: "",
         title: "Group mountain biking",
-        img: "bike.png",
+        img, // "bike.png",
         count: 2,
         price: 50
     }
