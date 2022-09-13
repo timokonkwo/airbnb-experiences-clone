@@ -4,7 +4,8 @@ export default function Card(props) {
 	return (
 		<div className="container">
 			<div className="card__img-container">
-				<img src={`src/assets/images/${props.img}`} alt="" className="card-img" />
+				{/* <img src={`src/assets/images/${props.img}`} alt="" className="card-img" /> */}
+				<img src={props.img} alt="" className="card-img" />
 
 				{props.status && <div className="status">{props.status}</div>}
 			</div>
