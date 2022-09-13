@@ -10,16 +10,17 @@ Check the Figma file for the design specifics.
 
 export default function App() {
 
+    const img = "https://via.placeholder.com/300";
+
     const cards = Data.map(item => 
     <Card
         status={item.status}
         title={item.title}
-        img= {item.img}
+        img= {img}
         count= {item.count}
         price= {item.price}
     />)
 
-    // const img = "https://via.placeholder.com/300";
     return (
         <div>
             <Navbar/>
