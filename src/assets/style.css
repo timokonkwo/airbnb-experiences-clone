@@ -12,7 +12,8 @@ body {
 }
 
 img {
-    max-width: 100%; 
+    max-width: 300px;
+    object-fit: cover; 
     border-radius: .3rem;   
 }
 
